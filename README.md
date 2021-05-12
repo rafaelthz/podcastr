@@ -30,6 +30,8 @@ You can view the project layout through [this link](https://www.figma.com/file/U
 
 ## How to execute
 
+- First you need install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/).
+
 - Clone the repository `git clone https://github.com/rafaelthz/podcastr-nlw5.git`
 - Install the dependencies with `yarn`
 - Start the JSON server `yarn server`
