@@ -14,35 +14,31 @@
   <img alt="Podcastr" src=".github/podcastr.png" width="100%">
 </p>
 
-## ✨ Tecnologias
+## Technologies
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+This project was developed using the following technologies:
 
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
 
-## 💻 Projeto
+## Project
 
-O podcastr é um app para reprodução de episódios em áudio do seu podcast favorito.
+Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by @Rocketseat.
 
-## 🔖 Layout
+## Layout
 
-Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate). É necessário ter conta no [Figma](http://figma.com/) para acessá-lo.
+You can view the project layout through [this link](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate). You must have an account at [Figma](http://figma.com/) to access it.
 
-## 🚀 Como executar
+## How to execute
 
-- Clone o repositório
-- Instale as dependências com `yarn`
-- Inicie a fake api com `yarn server`
-- Inicie o servidor com `yarn dev`
+- Clone the repository `git clone https://github.com/rafaelthz/podcastr-nlw5.git`
+- Install the dependencies with `yarn`
+- Start the JSON server `yarn server`
+- Start the server with `yarn dev`
 
-Agora você pode acessar [`localhost:3000`](http://localhost:3000) do seu navegador.
-
-## 📄 Licença
-
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE.md) para mais detalhes.
+Now you can access [`localhost:3000`](http://localhost:3000) in your browser.
 
 ---
 
-Feito com ♥ by Rocketseat 👋🏻 [Participe da nossa comunidade!](https://discordapp.com/invite/gCRAFhc)
+Inspired by @Rocketseat.
