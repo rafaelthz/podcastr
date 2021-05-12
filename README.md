@@ -22,7 +22,7 @@ This project was developed using the following technologies:
 
 ## Project
 
-Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by @Rocketseat.
+Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by [@Rocketseat](https://github.com/Rocketseat).
 
 ## Layout
 
@@ -39,4 +39,4 @@ Now you can access [`localhost:3000`](http://localhost:3000) in your browser.
 
 ---
 
-Inspired by @Rocketseat.
+Inspired by [@Rocketseat](https://github.com/Rocketseat).
