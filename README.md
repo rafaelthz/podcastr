@@ -33,8 +33,9 @@ You can view the project layout through [this link](https://www.figma.com/file/U
 - First you need install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/).
 
 - Clone the repository `git clone https://github.com/rafaelthz/podcastr-nlw5.git`
+- Access the folder `cd podcastr-nlw5`
 - Install the dependencies with `yarn`
-- Start the JSON server `yarn server`
+- Start the JSON "fake" server `yarn server`
 - Start the server with `yarn dev`
 
 Now you can access [`localhost:3000`](http://localhost:3000) in your browser.

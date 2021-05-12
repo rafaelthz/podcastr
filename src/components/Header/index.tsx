@@ -5,7 +5,7 @@ import Link from 'next/link';
 import styles from './styles.module.scss';
 
 export function Header() {
-  const currentDate = format(new Date(), 'EEEEEE, d MMM', {
+  const currentDate = format(new Date(), 'EEEEEE, d MMMM', {
     locale: ptBR,
   });
 
