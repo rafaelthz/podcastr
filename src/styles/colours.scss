@@ -30,9 +30,9 @@ body {
     --borderColor: #{$gray-100};
     --buttonBackground: #{$white};
     --buttonColor: #{$purple-400};
-    --slideColor: #{$purple-300}; 
+    --slideColor: #{$purple-300};
 
-  @include whenDark { 
+  @include whenDark {
     --backgroundPrimary: #{darken($purple-1000, 60%)};
     --backgroundSecondary: #{darken($purple-1000, 30%)};
     --backgroundHeader: #{darken($purple-1000, 90%)};
