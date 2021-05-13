@@ -1,0 +1,50 @@
+$white: #FFF;
+$gray: #ddd;
+$black: #121214;
+
+$gray-50: #F7F8FA;
+$gray-100: #E6E8EB;
+$gray-200: #AFB2B1;
+$gray-500: #808080;
+$gray-800: #494D4B;
+$gray-1000: #202024;
+
+$green-500: #04D361;
+
+$purple-300: #9F75FF;
+$purple-400: #9164FA; 
+$purple-500: #8257E5;
+$purple-800: #6F48C9;
+$purple-1000: #52388f;
+
+body { 
+    --backgroundPrimary: #{$gray-50};
+    --backgroundSecondary: #{$white};
+    --backgroundHeader: #{$white};
+    --backgroundPlayer: #{$purple-500};
+    --gradientPlayer: linear-gradient(143.8deg, rgba(145, 100, 250, 0.8) 0%, rgba(0, 0, 0, 0) 100%);
+    --colorPrimary: #{$gray-500};
+    --colorSecondary: #{$gray-800};
+    --colorLink: #{$gray-800};
+    --colorSpan: #{$gray};
+    --borderColor: #{$gray-100};
+    --buttonBackground: #{$white};
+    --buttonColor: #{$purple-400};
+    --slideColor: #{$purple-300}; 
+
+  @include whenDark { 
+    --backgroundPrimary: #{darken($purple-1000, 60%)};
+    --backgroundSecondary: #{darken($purple-1000, 30%)};
+    --backgroundHeader: #{darken($purple-1000, 90%)};
+    --backgroundPlayer: #{darken($purple-1000, 30%)};
+    --gradientPlayer: linear-gradient(143.8deg, rgba(0, 0, 0, 0) 0%, rgba(145, 100, 250, 0.1) 100%);
+    --colorPrimary: #{$gray-50};
+    --colorSecondary: #{$gray-100};
+    --colorLink: #{$purple-300};
+    --colorSpan: #{$gray};
+    --borderColor: #{$purple-1000};
+    --buttonBackground: #{darken($purple-1000, 10%)};
+    --buttonColor: #{$purple-1000};
+    --slideColor: #{$purple-1000};
+  }
+}

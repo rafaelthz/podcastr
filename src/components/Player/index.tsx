@@ -97,7 +97,7 @@ export function Player() {
                 value={progress}
                 onChange={handleSeek}
                 trackStyle={{ backgroundColor: '#04d361' }}
-                railStyle={{ backgroundColor: '#9f75ff' }}
+                railStyle={{ backgroundColor: '#8257E5' }}
                 handleStyle={{ borderColor: '04d361', borderWidth: 4 }}
               />
             ) : (

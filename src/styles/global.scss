@@ -7,11 +7,14 @@
 :root{
 	--white: #FFF;
 
+	--black: #121214;
+
 	--gray-50: #F7F8FA;
 	--gray-100: #E6E8EB;
 	--gray-200: #AFB2B1;
 	--gray-500: #808080;
 	--gray-800: #494D4B;
+	--gray-1000: #202024;
 
 	--green-500: #04D361;
 
@@ -34,12 +37,12 @@
 }
 
 body {
-	background: var(--gray-50);
+	background: var(--backgroundPrimary);
 }
 
 body, input, textarea, button {
 	font: 500 1rem Inter, sans-serif;
-	color: var(--gray-500);
+	color: var(--colorPrimary);
 }
 
 h1, h2, h3, h4, h5, h6 {
