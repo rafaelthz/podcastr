@@ -29,6 +29,8 @@ This project was developed using the following technologies:
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
+- [JSON Server](https://www.npmjs.com/package/json-server)
+- [SASS](https://sass-lang.com/install)
 
 ## Layout
 
