@@ -12,6 +12,10 @@
 	<img alt="Podcastr" src=".github/podcastr.png" width="100%">
 </p>
 
+<p align="center">
+	<img alt="Podcastr Dark Mode" src=".github/podcastr-dark.png" width="100%">
+</p>
+
 ## Technologies
 
 This project was developed using the following technologies:
@@ -24,14 +28,15 @@ This project was developed using the following technologies:
 
 Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by [Rocketseat](https://rocketseat.com.br/).
 
+To complement the project, I developed the dark mode for the application.
+
 ## Layout
 
 You can view the project layout through [this link](https://www.figma.com/file/UwFEntsHpHYJlHNQAQr4gA/Podcastr/duplicate). You must have an account at [Figma](http://figma.com/) to access it.
 
 ## How to execute
 
-- First you need install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/).
-
+- First, you need install [Node.js](https://nodejs.org/en/download/) and [Yarn](https://yarnpkg.com/).
 - Clone the repository `git clone https://github.com/rafaelthz/podcastr-nlw5.git`
 - Access the folder `cd podcastr-nlw5`
 - Install the dependencies with `yarn`
