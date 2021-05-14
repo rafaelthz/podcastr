@@ -6,6 +6,12 @@
 	<img src="https://img.shields.io/static/v1?label=NLW&message=05&color=8257E5&labelColor=000000" alt="NLW 05" />
 </p>
 
+## Project
+
+Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by [Rocketseat](https://rocketseat.com.br/).
+
+To complement the project, I developed the dark mode for the application.
+
 <br>
 
 <p align="center">
@@ -23,12 +29,6 @@ This project was developed using the following technologies:
 - [React](https://reactjs.org)
 - [Next.js](https://nextjs.org/)
 - [TypeScript](https://www.typescriptlang.org/)
-
-## Project
-
-Podcastr is a web application for podcast broadcasting, the project was developed during [Next Level Week](https://nextlevelweek.com/pre-nlw) #05 (ReactJS), event presented by [Rocketseat](https://rocketseat.com.br/).
-
-To complement the project, I developed the dark mode for the application.
 
 ## Layout
 
