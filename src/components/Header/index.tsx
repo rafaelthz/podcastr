@@ -15,7 +15,7 @@ export function Header() {
 
   const systemPrefersDark = useMediaQuery(
     {
-      query: "(prefers-color-scheme: dark)"
+      query: "(prefers-color-scheme: light)"
     },
     undefined,
     prefersDark => {
