@@ -1,5 +1,4 @@
 import { useEffect, useState } from "react";
-import { useMediaQuery } from "react-responsive";
 import Toggle from "react-toggle";
 import format from 'date-fns/format';
 import ptBR from 'date-fns/locale/pt-BR';
@@ -13,17 +12,7 @@ export function Header() {
     locale: ptBR,
   });
 
-  const systemPrefersDark = useMediaQuery(
-    {
-      query: "(prefers-color-scheme: light)"
-    },
-    undefined,
-    prefersDark => {
-      setIsDark(prefersDark);
-    }
-  );
-
-  const [isDark, setIsDark] = useState(systemPrefersDark);
+  const [isDark, setIsDark] = useState(false);
 
   useEffect(() => {
     if (isDark) {
